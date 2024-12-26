@@ -1,0 +1,105 @@
+#nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#box1 {
+  border: 2px solid black;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#box2 {
+  border: 2px solid black;
+  width: 700px;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#minibox1 {
+  border: 2px solid black;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+}
+#minibox2 {
+  border: 2px solid black;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+}
+#minibox3 {
+  border: 2px solid black;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.tinybox {
+  border: 2px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tinybox:hover {
+  color: #2874f0;
+  transform: translateY(-2px);
+}
+
+/* #box {
+  border: 2px solid black;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#box1 {
+  border: 2px solid black;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#box2 {
+  border: 2px solid black;
+  width: 700px;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#box1mini01 {
+  border: 2px solid blue;
+  width: 200px;
+  height: 40px;
+}
+#box1mini02 {
+  border: 2px solid blue;
+  width: 200px;
+  height: 40px;
+} */

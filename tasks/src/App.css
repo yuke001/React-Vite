@@ -1,0 +1,115 @@
+#box {
+  border: 3px solid Blue;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#box1 {
+  border: 5px solid red;
+  width: 700px;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#box1minibox01 {
+  border: 2px solid black;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#box1minibox02 {
+  border: 2px solid black;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#box01mini01tiny01 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+#box01mini01tiny02 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+
+/* Box 2  */
+
+#box2 {
+  border: 5px solid red;
+  width: 900px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* box2 mini biox */
+#Box2min01 {
+  border: 2px solid black;
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* tiny */
+#Box2min01tiny01 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+#Box2min01tiny02 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+#Box2min01tiny03 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+
+/* min 02 */
+#Box2min02 {
+  border: 2px solid black;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Box2min02tiny01 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
+
+/* min 03 */
+#Box2min03 {
+  border: 2px solid black;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Box2min03tiny01 {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+}
