@@ -25,14 +25,6 @@ const App = () => {
     }
 
 
-    let click = () => {
-        setState({
-            Uname: "",
-            gmail: "",
-            pass: "",
-            gender: ""
-        })
-    }
 
     return (
         <div style={{ textAlign: "center" }}>
