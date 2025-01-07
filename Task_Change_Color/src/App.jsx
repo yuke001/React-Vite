@@ -21,7 +21,7 @@ const App = () => {
       <div className="input" style={{ display: "flex", justifyContent: 'space-around', alignItems: 'center' }}>
 
         <input ref={inputRef} type="text" name='color' placeholder='Enter Color' />
-        <button onClick={changeColor}>Change</button>
+        <button type='submit' onClick={changeColor}>Change</button>
 
       </div>
     </div>
