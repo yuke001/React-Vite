@@ -6,15 +6,14 @@ import "../App.css"
 const Routers = () => {
     return (
         <div>
-            <div id='main'>
+            <nav id='nav'>
 
                 <Link className='link' to="/home">HOME</Link>
                 <Link className='link' to="/cart">CART</Link>
                 <Link className='link' to="/about">ABOUT</Link>
                 <Link className='link' to="/order">ORDER</Link>
-                
 
-            </div>
+            </nav>
 
             <div id='out'>
                 <Outlet></Outlet>
