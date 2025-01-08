@@ -1,0 +1,85 @@
+#youtube {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.video-player-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.player-section {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.video-item {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.video-thumbnail {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+.player-wrapper {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+  background-color: black;
+}
+
+.video-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+/* #out {
+  height:600px;
+  width: 600px;
+  background-color: #181717; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+} */

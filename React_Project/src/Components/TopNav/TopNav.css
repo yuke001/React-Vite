@@ -1,8 +1,9 @@
 .top-nav {
   display: flex;
-  align-items: center; /* Vertically align items in nav */
-  background-color: #343a40; /* Set a dark background color */
-  color: #fff; /* Set text color to white for better contrast */
+  align-items: center;
+  justify-content: space-between; /* Distribute space between logo and buttons */
+  background-color: #343a40;
+  color: #fff;
   padding: 10px 20px;
 }
 
@@ -12,7 +13,25 @@
 }
 
 .logo {
-  height: 40px; /* Adjust logo height as needed */
+  height: 40px;
   width: auto;
   margin-right: 20px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Adds spacing between buttons */
+}
+
+.auth-button {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
 }

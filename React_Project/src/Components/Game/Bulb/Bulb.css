@@ -1,0 +1,50 @@
+.bulb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.bulb-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.bulb-container img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.bulb-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bulb-container button:first-child {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.bulb-container button:first-child:hover {
+  background-color: #218838;
+}
+
+.bulb-container button:last-child {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.bulb-container button:last-child:hover {
+  background-color: #c82333;
+}
