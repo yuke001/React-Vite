@@ -11,7 +11,9 @@ h2{
   align-items: center;
   font-size: 24px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #333;
 }
 
 .video-player-container {
@@ -42,6 +44,7 @@ h2{
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  
 }
 
 .video-thumbnail {
@@ -49,6 +52,8 @@ h2{
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
+  border: 1px solid #ccc;
+  
 }
 
 .video-title {

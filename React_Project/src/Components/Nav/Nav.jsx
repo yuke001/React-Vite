@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import './Nav.css'
 
 const Nav = () => {
   return (
@@ -14,6 +15,8 @@ const Nav = () => {
 
         <Link className='link' to="/game">Game</Link>
         <Link className='link' to="/youtube">Youtube</Link>
+        <Link className='link' to="/dashboard">Dashboard</Link>
+        <Link className='link' to="/video">Video</Link>
 
       </div>
 

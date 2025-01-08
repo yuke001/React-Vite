@@ -12,6 +12,8 @@ import Footer from './Components/Footer/Footer'
 import Game from './Components/Game/Game'
 import Color from './Components/Game/Color/Color'
 import Youtube from './Components/Youtube/Youtube'
+import DashBoard from './Components/Dashboard.jsx/DashBoard'
+import Video from './Components/Video/Video'
 
 
 let router = createBrowserRouter([
@@ -54,7 +56,14 @@ let router = createBrowserRouter([
         path: "/youtube",
         element: <Youtube></Youtube>
 
+      },{
+        path:"/dashboard",
+        element:<DashBoard></DashBoard>
+      },{
+        path:"/video",
+        element:<Video></Video>
       }
+
     ]
   }
 ])
