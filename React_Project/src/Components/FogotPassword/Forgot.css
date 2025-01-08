@@ -1,0 +1,95 @@
+/* Forgot Password Container */
+.fogot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Consistent width for responsiveness */
+    margin: 50px auto; /* Centered layout with vertical spacing */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+}
+
+/* Forgot Password Form */
+.fogot-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Form Group for Labels and Inputs */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 600; /* Bolder text for labels */
+    font-size: 0.95rem; /* Readable size */
+    color: #333;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ffc107; /* Yellow highlight for forgot password */
+}
+
+/* Forgot Password Button */
+.fogot-button {
+    padding: 12px;
+    background-color: #ffc107; /* Yellow theme for forgot password */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600; /* Bold button text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fogot-button:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px); /* Slight hover animation */
+}
+
+.fogot-button:active {
+    transform: translateY(0); /* Reset on click */
+}
+
+/* Links Section */
+.form-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-links a {
+    color: #007bff; /* Blue links for uniformity */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.form-links a:hover {
+    color: #0056b3;
+}
+
+.form-links p {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #666;
+}

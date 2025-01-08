@@ -1,0 +1,95 @@
+/* Container for the login form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px; /* Limit max width for smaller screens */
+  margin: 50px auto; /* Center horizontally and add vertical spacing */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form within the container */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Group for labels and inputs */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600; /* Slightly bolder for emphasis */
+  font-size: 0.95rem; /* Subtle text size */
+  color: #333;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff; /* Highlighted border */
+}
+
+/* Login button styling */
+.login-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600; /* Make the button text bold */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Subtle hover effect */
+}
+
+.login-button:active {
+  transform: translateY(0); /* Button returns to normal when clicked */
+}
+
+/* Additional form links */
+.form-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-links a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.form-links a:hover {
+  color: #0056b3;
+}
+
+.form-links p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #666;
+}

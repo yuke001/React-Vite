@@ -1,0 +1,18 @@
+.top-nav {
+  display: flex;
+  align-items: center; /* Vertically align items in nav */
+  background-color: #343a40; /* Set a dark background color */
+  color: #fff; /* Set text color to white for better contrast */
+  padding: 10px 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Adjust logo height as needed */
+  width: auto;
+  margin-right: 20px;
+}
