@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "97da",
+      "name": "yuke",
+      "email": "jnjnj"
+    },
+    {
+      "id": "7d72",
+      "name": "yuke",
+      "email": "jnjnj"
+    },
+    {
+      "id": "c135",
+      "username": "werq",
+      "email": "yuke@gmail.com",
+      "mobile": "jhhj",
+      "location": "location1",
+      "address": "yuke",
+      "password": "7887",
+      "confirmPassword": "ghg"
+    },
+    {
+      "id": "0cfb",
+      "username": "",
+      "email": "",
+      "mobile": "",
+      "location": "",
+      "address": "",
+      "password": "",
+      "confirmPassword": ""
+    }
+  ]
+}

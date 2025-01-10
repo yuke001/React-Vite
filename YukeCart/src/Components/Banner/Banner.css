@@ -1,0 +1,35 @@
+/* Banner.css */
+
+.banner {
+  background-color: #27b6c2;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.banner-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.banner-button {
+  background-color: #fff;
+  color: #27b6c2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
