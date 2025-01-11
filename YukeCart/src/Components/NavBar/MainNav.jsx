@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet,useParams } from 'react-router-dom';
 import './MainNav.css';
 
 const MainNav = () => {
@@ -7,7 +7,7 @@ const MainNav = () => {
         <div>
             <div id='nav'>
                 <div className='logo-section'>
-                  <div style={{color: 'purple', fontWeight:'bold', fontSize: 30}}> <Link to={"/"}>Yuke</Link> </div>
+                    <div style={{ color: 'purple', fontWeight: 'bold', fontSize: 30 }}> <Link style={{ textDecoration: 'none' }} to={"/"}>Home</Link> </div>
                     <div className="location-select">
                         Location
                         <select>
@@ -25,15 +25,18 @@ const MainNav = () => {
                         Login
                     </Link>
                     <Link to={"/register"}>
-                       <i className="fa fa-register"></i>
-                       Register
+                        <i className="fa fa-register"></i>
+                        Register
                     </Link>
                     <Link to={"/cart"}>
-                       <i className="fa fa-shopping-cart"></i>
-                       Cart
+                        <i className="fa fa-shopping-cart"></i>
+                        Cart
                     </Link>
                 </div>
+
             </div>
+           
+
 
             <div id='main'>
                 <Outlet></Outlet>
