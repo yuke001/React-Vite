@@ -7,17 +7,18 @@ import Cart from './Components/CART/Cart'
 import Banner from './Components/Banner/Banner'
 import Categories from './Components/Categories/Categories'
 import Pages from '../Params/Pages'
+import HomePage from './Components/HomePage/HomePage'
 
 let router = createBrowserRouter([
   {
     path: "/",
     element: <MainNav></MainNav>,
     children: [
-      // {
-      //   path: "/pages:id",
-      //   element: <Pages></Pages>
+      {
+        index: true,
+        element: <HomePage></HomePage>
 
-      // },
+      },
       {
         path: "/register",
         element: <Register></Register>
@@ -41,8 +42,7 @@ const App = () => {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
-      {/* <Banner></Banner>
-      <Categories></Categories> */}
+     
 
     </div>
   )
